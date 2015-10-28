@@ -319,7 +319,7 @@ class Block(Element):
     def get_comment(self): return self.get_param('comment').get_value()
 
     def get_flags(self): return self._flags
-    def throtteling(self): return BLOCK_FLAG_THROTTLE in self._flags
+    def throttling(self): return BLOCK_FLAG_THROTTLE in self._flags
     def bypass_disabled(self): return BLOCK_FLAG_DISABLE_BYPASS in self._flags
 
     ##############################################
